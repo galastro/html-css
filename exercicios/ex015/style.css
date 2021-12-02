@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentuação */
+
+body {
+    font-family: Arial, Helvetica, sans-serif; background-color: lightgoldenrodyellow;
+    color: blue;
+}
+h1 {
+    color: green;
+}
+p {
+    text-align: justify;
+    color: darkorchid;
+}

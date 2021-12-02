@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* 
+id = # 
+> #principal ou h1#principal (case sensitive: Exemplo ≠ exemplo)
+class = . (.texto)
+*/
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+   
+
+
+h1 {
+    color: rgb(4, 109,0);
+    
+}
+#principal {
+    background-color: rgb(4, 109,0);
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+.basico {
+    color: red;
+}
+
+.intermediario {
+    color: rgb(11, 170, 223);
+}
+
+.avancado {
+    color: rgb(134, 0, 211);
+}
+
+.destaque {
+    background-color: slategrey;
+}

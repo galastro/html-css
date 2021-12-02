@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE FONTE EXTERNA</title>
+    <style>
+        /* Tipos de format()
+        - otf > opentype
+        - ttf > truetype
+        - embedded-opentype
+        - truetype-aap (Apple Advanced Typography)
+        - svg 
+        */
+        @font-face {
+            font-family: 'vampire';
+            src: url('fonts/Vampire Wars.ttf') format('truetype');
+        }
+        h1 {
+            font-family: 'vampire';
+            font-size: 70px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Metallica testament</h1>
+</body>
+</html>
